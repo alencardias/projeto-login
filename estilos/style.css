@@ -48,7 +48,7 @@ Grandes telas: Acima de 1200px
         border-radius: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
-        transition: width .7s, height .7s;
+        transition: width .4s, height .7s;
         transition-timing-function: ease;
         
     }
@@ -65,4 +65,14 @@ Grandes telas: Acima de 1200px
         padding: 10px;
 
     }
+
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    div#formulario > p {
+        font-size: 0.8em;
+    } 
 
