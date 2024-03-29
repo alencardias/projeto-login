@@ -39,7 +39,6 @@ Grandes telas: Acima de 1200px
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
         overflow: hidden;
 
         background-color: white;
@@ -48,7 +47,8 @@ Grandes telas: Acima de 1200px
         border-radius: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
-        transition: width .4s, height .7s;
+        transform: translate(-50%, -50%);
+        transition: width .3s, height .3s;
         transition-timing-function: ease;
         
     }
@@ -78,15 +78,35 @@ Grandes telas: Acima de 1200px
 
     form > div.campo{
     background-color: #da1806 ;
+    border: 2px solid #da1806 ;
     display: block;
     height: 40px;
-    border-radius: 5px;
-    margin: 5px ;
-    padding: 5px;
-    text-align: center;
+    border-radius: 8px;
+    margin: 5px 0px;
     }
+
     div.campo > i{
         font-size: 1.2em;
+        color: white;
+        width: 40px;
+        padding: 6px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    div.campo > input{
+        background-color: #f0c7a3;
+        font-size: 1em; 
+        width: calc(100% - 36px);  
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+
+    }
+
+    div.campo > input:focus-within{
+        background-color: white;
     }
 
     form label{
