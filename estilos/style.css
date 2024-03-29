@@ -1,2 +1,31 @@
 @charset "UTF-8";
 
+/*paleta de cores
+#45858C
+#A0D9D9
+#F2913D
+#F25D27
+#730C02
+*/
+
+/*Typical Device Breakponts
+------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablets: de 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: Acima de 1200px
+
+*/
+
+@media all{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+}
